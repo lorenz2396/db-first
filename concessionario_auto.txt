@@ -1,0 +1,21 @@
+Tabella : Concessionario auto usate
+
+ID_NAUTO                MEDIUMINT      AUTO_INCREMENT
+BRAND                   VARCHAR(30)    NOTNULL
+MODEL                   VARCHAR(30)    NOTNULL
+ENGINE POWER            MEDIUMINT      NOTNULL
+ENGINE SIZE             FLOAT(4,3)     NOTNULL
+CYLINDERS               TINYINT        NOTNULL  
+EMPTY WEIGHT            MEDIUMINT      NOTNULL
+FUEL TYPE               VARCHAR(15)    NOTNULL
+FUEL CONSUMPTION        FLOAT(3,1)     NULL 
+EMISSION CLASS          VARCHAR(20)    NOTNULL
+TRACTION TYPE           VARCHAR(20)    DEFAULT
+GEARBOX                 VARCHAR(15)    NOTNULL
+PRODUCTION YEAR         YEAR           NOTNULL
+MILEAGE                 MEDIUMINT      NOTNULL
+SEATS                   TINYINT        NOTNULL
+DOORS                   TINYINT        NOTNULL
+COLOR                   VARCHAR(20)    NOTNULL 
+PREVIOUS OWNERS         TINYINT        
+VEHICLE DESCRIPTION     TEXT
